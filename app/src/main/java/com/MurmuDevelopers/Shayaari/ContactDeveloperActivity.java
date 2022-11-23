@@ -93,7 +93,7 @@ public class ContactDeveloperActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View _view) {
 				intent.setAction(Intent.ACTION_VIEW);
-				intent.setData(Uri.parse("https://www.facebook.com/manish.murmu.5264"));
+				intent.setData(Uri.parse("https://www.facebook.com/manish222261"));
 				startActivity(intent);
 			}
 		});
@@ -111,7 +111,7 @@ public class ContactDeveloperActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View _view) {
 				intent.setAction(Intent.ACTION_VIEW);
-				intent.setData(Uri.parse("https://t.me/allinoneshayaari"));
+				intent.setData(Uri.parse("https://t.me/allinoneshayaariofficial"));
 				startActivity(intent);
 			}
 		});
@@ -124,4 +124,4 @@ public class ContactDeveloperActivity extends AppCompatActivity {
 		cardview3.setCardBackgroundColor(0xFFFFCDD2);
 	}
 	
-}
+}
