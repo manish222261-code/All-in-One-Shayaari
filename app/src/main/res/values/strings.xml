@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">All in One Shayaari</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="app_version">Version - 4.0</string>
+    <string name="App_Logo">This a App Logo</string>
+    <string name="altitude_shayaari">Altitude Shayaari</string>
+    <string name="funny_image">funny_image</string>
+    <string name="funny_shayaari">Funny Shayaari</string>
+    <string name="romantic_image">romantic_image</string>
+    <string name="romantic_shayaari">Romantic Shayaari</string>
+    <string name="love_image">love_image</string>
+    <string name="love_shayaari">Love Shayaari</string>
+    <string name="dosti_image">dosti_image</string>
+    <string name="dosti_shayaari">Dosti Shayaari</string>
+    <string name="girl_image">girl_image</string>
+    <string name="girls_shayaari">Girls Shayaari</string>
+    <string name="kiss_image">kiss_image</string>
+    <string name="attitude_image">attitude_image</string>
+    <string name="app_logo">App Logo</string>
+    <string name="home">Home</string>
+    <string name="share">Share</string>
+    <string name="call_img">call_img</string>
+    <string name="contact_developer">Contact Developer</string>
+    <string name="setting_img">setting_img</string>
+    <string name="setting">Setting</string>
+    <string name="app_developer_name">App Developer - Manish Murmu</string>
+    <string name="telegram">Join our Telegram Channel</string>
+    <string name="instagram">Follow me on Instagram</string>
+    <string name="facebook">Follow me on Facebook</string>
+    <string name="textview">TextView</string>
+    <string name="copy_shayaari">COPY</string>
+    <string name="share_shayaari">SHARE</string>
+</resources>
