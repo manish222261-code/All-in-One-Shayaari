@@ -1,4 +1,4 @@
-<p align="center">
+<p>
     <img src="https://github.com/manish222261-code/All-in-One-Shayaari/blob/main/app/src/main/res/drawable/app_icon.png?raw=true" width="150" alt="Centered Image"/>
 </p>
 
@@ -34,6 +34,25 @@
 
 > 🛠️ Originally created in **Sketchware**, this project has been fully migrated and rewritten using modern native Android development practices!
 
+---
+## Screenshots
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="https://github.com/manish222261-code/All-in-One-Shayaari/blob/main/screenshots/splash_screen.jpg" width="200"/></td>
+    <td align="center"><img src="https://github.com/manish222261-code/All-in-One-Shayaari/blob/main/screenshots/home_screen.jpg" width="200"/></td>
+    <td align="center"><img src="https://github.com/manish222261-code/All-in-One-Shayaari/blob/main/screenshots/drawer_view.jpg" width="200"/></td>
+    <td align="center"><img src="https://github.com/manish222261-code/All-in-One-Shayaari/blob/main/screenshots/shayaari_list.jpg" width="200"/></td>
+    <td align="center"><img src="https://github.com/manish222261-code/All-in-One-Shayaari/blob/main/screenshots/shayaari_view.jpg" width="200"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Splash Screen</b></td>
+    <td align="center"><b>Home Screen</b></td>
+    <td align="center"><b>Drawer View</b></td>
+    <td align="center"><b>Shayaari List</b></td>
+    <td align="center"><b>Shayaari View</b></td>
+  </tr>
+</table>
 ---
 
 ## ✨ Features
@@ -72,18 +91,4 @@
 ---
 
 
-## Screenshots
-
-<table align="center">
-  <tr>
-    <td align="center"><img src="https://github.com/manish222261-code/All-in-One-Shayaari/blob/main/screenshots/home_screen.jpg" width="200"/></td>
-    <td align="center"><img src="https://github.com/manish222261-code/All-in-One-Shayaari/blob/main/screenshots/shayaari_list.jpg" width="200"/></td>
-    <td align="center"><img src="https://github.com/manish222261-code/All-in-One-Shayaari/blob/main/screenshots/shayaari_view.jpg" width="200"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Home Screen</b></td>
-    <td align="center"><b>Shayaari List</b></td>
-    <td align="center"><b>Shayaari View</b></td>
-  </tr>
-</table>
 
