@@ -1,31 +1,48 @@
 plugins {
-	id 'com.android.application'
+    alias(libs.plugins.android.application)
 }
 
 android {
-	compileSdkVersion 28
-	
-	useLibrary 'org.apache.http.legacy'
-	
-	defaultConfig {
-		applicationId "com.MurmuDevelopers.Shayaari"
-		minSdkVersion 21
-		targetSdkVersion 28
-		versionCode 3
-		versionName "3.0"
-	}
-	
-	buildTypes {
-		release {
-			minifyEnabled false
-			proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-		}
-	}
+    namespace 'com.MurmuDevelopers.Shayaari'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.MurmuDevelopers.Shayaari"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "4.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
-	implementation fileTree(dir: 'libs', include: ['*.jar'])
-	implementation 'androidx.appcompat:appcompat:1.2.0'
-	implementation 'com.google.android.material:material:1.4.0'
-	implementation 'com.google.code.gson:gson:2.8.7'
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.navigation.ui
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+    implementation libs.circleimageview
+    implementation libs.gson
+    implementation libs.material.v140
+    implementation libs.coordinatorlayout
+
 }

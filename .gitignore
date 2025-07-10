@@ -1,0 +1,59 @@
+# Built application files
+*.apk
+*.ap_
+
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Local configuration file (SDK path, etc.)
+local.properties
+
+# Proguard
+proguard/*.txt
+
+# Log/Crash reports
+*.log
+
+# Android Studio/IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystore files (DO NOT commit signing keys!)
+*.jks
+*.keystore
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dependency caches
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Unit test reports
+**/test-results/
+**/test-output/
+**/reports/
+
+# Code coverage reports
+**/jacocoTestReport.xml
+**/jacocoTestReport/
+
+# Generated files by Android or tools
+generated/
+output.json
+navigation.json
+
+# Misc
+*.bak
+*.swp
+
+# Kotlin/Java build cache
+.kotlinc/
+*.class
+
